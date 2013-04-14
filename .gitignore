@@ -8,6 +8,8 @@ sickbeard.db*
 autoProcessTV/autoProcessTV.cfg
 server.crt
 server.key
+unrar.exe
+wget.exe
 
 #  SB Test Related   #
 ######################

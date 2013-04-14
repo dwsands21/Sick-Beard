@@ -176,7 +176,8 @@ class KICKASSCache(tvcache.TVCache):
         self.minTime = 15
 
     def _getRSSData(self):
-        url = self.provider.url + 'tv/?rss=1'
+        # url = self.provider.url + 'tv/?rss=1'
+        url = self.provider.url + 'usearch/category:tv seeds:5 age:24h/?rss=1'
 
         #logger.log(u"KICKASS cache update URL: " + url)
 
